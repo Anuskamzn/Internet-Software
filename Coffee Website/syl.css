@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+header {
+	background-color: rgb(124, 89, 59);
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 700;
+}
+nav ul li a:hover{
+	color: rgb(155, 152, 149);
+}
+.logo{
+    color: rgb(212, 205, 196);
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;    
+}
+@media only screen and (max-width: 768px) {
+	nav {
+		align-items: flex-start;
+	}
+
+	nav ul {
+		flex-direction: row;
+	}
+
+	nav ul li {
+		margin: 0 5px;
+	}
+
+	nav ul li a {
+		padding: 10px 0;
+		display: block;
+		border-bottom: 1px solid #fff;
+	}
+    
+}
+footer {
+    background-color: #8d8986;
+    text-align: center;
+    padding: 10px;
+	margin-top: 10px;
+  }
+#abt{
+	background-color: rgb(200, 195, 189);
+}  
+.about-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-pic{
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+	margin-left: 15px;
+    margin-right: 85px;
+}
+.about-text{
+    flex: 1;
+}
+.about-text p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+	padding: 10px;
+	margin-right: 5px;
+    color: rgb(41, 39, 39);
+}
+#menu ul li{
+    list-style: none;
+}
+.pic{
+	width: 300px;
+    height: 200px;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+	padding: 50px;
+}
+.pic{
+	margin-left: 45px;
+	
+}
+#menu .sec ul li{
+    flex: 1;
+}
+.pict{
+	width: 300px;
+    height: 200px;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+	padding: 50px;
+}
+.section .pict{
+	margin-left: 45px;
+	
+}
+#menu .section ul li{
+    flex: 1;
+}
+#menu .section{
+	float: right;
+}
+#contact h2{
+	text-align: center;
+}
