@@ -1,0 +1,47 @@
+table {
+    background-color:rgb(75, 93, 122);
+    padding: 15px 10px;
+    border-radius: 12px;
+    margin: 0 auto;
+    }
+    
+input {
+    height: 54px;
+    border: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+    
+button {
+    height: 55px;
+    border: none;
+    background-color: rgb(178, 189, 200);;
+    color: #333;
+}
+button:hover{
+    background-color: rgb(126, 133, 153);
+}    
+#addButton, #subtractButton, #multiplyButton, #divideButton {
+    background-color: rgb(123, 161, 145);
+    color: white;
+}
+#addButton:hover, #subtractButton:hover, #multiplyButton:hover, #divideButton:hover{
+    background-color: rgb(89, 129, 115);
+}
+#clearButton {
+    background-color: rgb(133, 66, 66);
+    color: white;
+}
+#clearButton:hover{
+    background-color: rgb(96, 60, 60);
+}  
+#equalsButton {
+    background-color: rgb(117, 117, 176);
+    color: white;
+}
+#equalsButton:hover{
+    background-color: rgb(80, 80, 120);
+}  
+  
