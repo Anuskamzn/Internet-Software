@@ -4,7 +4,6 @@ let num2 = null;
 let operation = null;
 let result = null;
 
-
 function numberClick(event) {
   num2 = null; 
   const numString = event.target.value;
@@ -17,8 +16,6 @@ function numberClick(event) {
 
   display.value = operation ? num2 : num1;
 }
-
-
 
 function operationClick(event) {
   if (!operation) {
@@ -46,6 +43,7 @@ function equalsClick() {
   display.value = result;
   num1 = result;
   result += num2;
+  operation=null;
 }
 
 function calculateResult(num1, num2, operation) {
